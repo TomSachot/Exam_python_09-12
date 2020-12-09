@@ -43,5 +43,3 @@ while (tour < 8):
                 if ( =  )
                     print(Back.YELLOW
             print("Retentez ! Ce n'était pas ce mot-là...")
-            
-            
