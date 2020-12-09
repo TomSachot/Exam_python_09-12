@@ -12,7 +12,7 @@ mot10 = ["C", "A", "S", "C", "A", "D", "E"]
 motmystere = 
 motjoueur = int(input("Quel est le mot mystère ?")
 
-for motjeu in range(1, 10):
+for motmystere in range(1, 10):
     print(motmystere)
     
 while (tour < 8):
