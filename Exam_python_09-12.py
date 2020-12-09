@@ -34,12 +34,12 @@ while (tour < 8):
             #Pour parcourir les lettres du mot du joueur et les comparer avec celles du mot mystère
             for i in range(1, max):
                 #Si la lettre du mot du joueur est dans le mot mystère et à la bonne place
-                if ( = )
+                if (motjoueur[i] = motmystere[i] )
                     print(Back.RED
                 #Si la lettre du mot du joueur n'est pas dans le mot mystère
-                if ( != )
+                if (motjoueur[i] != motmystere[i] )
                     print(Back.BLUE
                 #Si la lettre du mot du joueur est dans le mot mystère mais pas à la bonne place
-                if ( = )
+                if (motjoueur[i] = motmystere[i + ] )
                     print(Back.YELLOW
             print("Retentez ! Ce n'était pas ce mot-là...")
