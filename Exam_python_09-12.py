@@ -35,3 +35,6 @@ while (tour < 8):
                     print(Back.BLUE
                 if ( =  )
                     print(Back.YELLOW
+            print("Retentez ! Ce n'était pas ce mot-là...")
+            
+            
