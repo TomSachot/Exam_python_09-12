@@ -40,6 +40,6 @@ while (tour < 8):
                 if ( != )
                     print(Back.BLUE
                 #Si la lettre du mot du joueur est dans le mot mystère mais pas à la bonne place
-                if ( =  )
+                if ( = )
                     print(Back.YELLOW
             print("Retentez ! Ce n'était pas ce mot-là...")
