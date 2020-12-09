@@ -1,7 +1,7 @@
- from colorama import init
- init()
- from colorama import Fore, Back, Style
- import random
+from colorama import init
+init()
+from colorama import Fore, Back, Style
+import random
 
 mot1 = ["V", "O", "I", "T", "U", "R", "E"]
 mot2 = ["M", "O", "T", "E", "U", "R"]
