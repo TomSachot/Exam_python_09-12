@@ -14,7 +14,7 @@ import random
 #mot9 = ["D", "Y", "N", "A", "M", "I", "T", "E"]
 #mot10 = ["P", "O", "U", "R", "S", "U", "I", "T", "E"]
 
-biblio_mots = ["VOITURE", "MOTEUR", "FUSIL", "ROUTE", "BOULEVARD", "PLAINE", "MANOIR", "GADJET", "DYNAMITE", "POURSUITE"]
+biblio_mots = ["voiture", "moteur", "fusil", "route", "boulevard", "plaine", "manoir", "gadjet", "dynamite", "poursuite"]
 tour = 0
 motmystere = random.biblio_mots                          #Assigner un mot de la bibliothèque de façon aléatoire au mot mystère
 motjoueur = int(input("Quel est le mot mystère ?")
