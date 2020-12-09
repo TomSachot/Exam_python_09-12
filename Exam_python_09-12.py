@@ -19,8 +19,6 @@ tour = 0
 motmystere = random.biblio_mots                          #Assigner un mot de la bibliothèque de façon aléatoire au mot mystère
 motjoueur = int(input("Quel est le mot mystère ?")
 
-for motmystere in range(1, 10):
-    print(motmystere)
 #Instaurer les 8 tentatives   
 while (tour < 8):
     print(int(input("Quel est le mot mystère ?")))
@@ -35,10 +33,13 @@ while (tour < 8):
         if (motjoueur != motmystere):
             #Pour parcourir les lettres du mot du joueur et les comparer avec celles du mot mystère
             for i in range(1, 9):
+                #Si la lettre du mot du joueur est dans le mot mystère et à la bonne place
                 if ( = )
                     print(Back.RED
+                #Si la lettre du mot du joueur n'est pas dans le mot mystère
                 if ( != )
                     print(Back.BLUE
+                #Si la lettre du mot du joueur est dans le mot mystère mais pas à la bonne place
                 if ( =  )
                     print(Back.YELLOW
             print("Retentez ! Ce n'était pas ce mot-là...")
