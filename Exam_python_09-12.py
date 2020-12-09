@@ -3,20 +3,19 @@ init()
 from colorama import Fore, Back, Style
 import random
 
-#mot1 = ["V", "O", "I", "T", "U", "R", "E"]
-#mot2 = ["M", "O", "T", "E", "U", "R"]
-#mot3 = ["F", "U", "S", "I", "L"]
-#mot4 = ["R", "O", "U", "T", "E"]
-#mot5 = ["B", "O", "U", "L", "E", "V", "A", "R", "D"]
-#mot6 = ["P", "L", "A", "I", "N", "E"]
-#mot7 = ["M", "A", "N", "O", "I", "R"]
-#mot8 = ["G", "A", "D", "J", "E", "T"]
-#mot9 = ["D", "Y", "N", "A", "M", "I", "T", "E"]
-#mot10 = ["P", "O", "U", "R", "S", "U", "I", "T", "E"]
+mot1 = ["V", "O", "I", "T", "U", "R", "E"]
+mot2 = ["M", "O", "T", "E", "U", "R"]
+mot3 = ["F", "U", "S", "I", "L"]
+mot4 = ["R", "O", "U", "T", "E"]
+mot5 = ["B", "O", "U", "L", "E", "V", "A", "R", "D"]
+mot6 = ["P", "L", "A", "I", "N", "E"]
+mot7 = ["M", "A", "N", "O", "I", "R"]
+mot8 = ["G", "A", "D", "J", "E", "T"]
+mot9 = ["D", "Y", "N", "A", "M", "I", "T", "E"]
+mot10 = ["P", "O", "U", "R", "S", "U", "I", "T", "E"]
 
-biblio_mots = ["voiture", "moteur", "fusil", "route", "boulevard", "plaine", "manoir", "gadjet", "dynamite", "poursuite"]
 tour = 0
-motmystere = random.biblio_mots                          #Assigner un mot de la bibliothèque de façon aléatoire au mot mystère
+motmystere =                          #Assigner un mot de la bibliothèque de façon aléatoire au mot mystère
 motjoueur = int(input("Quel est le mot mystère ?")
 
 #Instaurer les 8 tentatives   
