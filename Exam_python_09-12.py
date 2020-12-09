@@ -32,7 +32,7 @@ while (tour < 8):
         #Quand le mot du joueur n'est pas le même que le mot mystère
         if (motjoueur != motmystere):
             #Pour parcourir les lettres du mot du joueur et les comparer avec celles du mot mystère
-            for i in range(1, 9):
+            for i in range(1, max):
                 #Si la lettre du mot du joueur est dans le mot mystère et à la bonne place
                 if ( = )
                     print(Back.RED
