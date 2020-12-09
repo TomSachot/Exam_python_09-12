@@ -9,7 +9,14 @@ mot7 = ["M", "A", "N", "O", "I", "R"]
 mot8 = ["S", "O", "U", "T", "E", "R", "R", "A", "I", "N"]
 mot9 = ["S", "P", "E", "C", "T", "R", "E"]
 mot10 = ["C", "A", "S", "C", "A", "D", "E"]
-motordi = 0
+motjeu = 
+motjoueur = int(input("Quel est le mot mystère ?")
 
-for motchoisi in range(mot1, mot10):
-    print(motordi)
+for motjeu in range(1, 10):
+    print(motjeu)
+    
+while (motjoueur != motjeu):
+    print(int(input("Quel est le mot mystère ?")))
+    def verif ():
+        if (motjoueur = motjeu):
+            print("Bien joué ! C'est bien ",motjoueur," le mot mystère !")
