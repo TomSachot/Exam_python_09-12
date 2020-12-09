@@ -1,21 +1,15 @@
 tour = 0
-mot1 = ["v", "o", "i", "t", "u", "r", "e"]
-mot2 = ["f", "o", "o", "t", "b", "a", "l", "l"]
-mot3 = ["a", "t", "t", "e", "n", "t", "a", "t"]
-mot4 = ["p", "e", "l", "o", "u", "s", "e"]
-mot5 = ["b", "o", "u", "l", "e", "v", "a", "r", "d"]
-mot6 = ["e", "c", "o", "s", "s", "e"]
-mot7 = ["m", "a", "n", "o", "i", "r"]
-mot8 = ["s", "o", "u", "t", "e", "r", "r", "a", "i", "n"]
-mot9 = ["s", "p", "e", "c", "t", "r", "e"]
-mot10 = ["c", "a", "s", "c", "a", "d", "e"]
+mot1 = ["V", "O", "I", "T", "U", "R", "E"]
+mot2 = ["F", "O", "O", "T", "B", "A", "L", "L"]
+mot3 = ["A", "T", "T", "E", "N", "T", "A", "T"]
+mot4 = ["P", "E", "L", "O", "U", "S", "E"]
+mot5 = ["B", "O", "U", "L", "E", "V", "A", "R", "D"]
+mot6 = ["E", "C", "O", "S", "S", "E"]
+mot7 = ["M", "A", "N", "O", "I", "R"]
+mot8 = ["S", "O", "U", "T", "E", "R", "R", "A", "I", "N"]
+mot9 = ["S", "P", "E", "C", "T", "R", "E"]
+mot10 = ["C", "A", "S", "C", "A", "D", "E"]
 motordi = 0
 
 for motchoisi in range(mot1, mot10):
     print(motordi)
-
-
-
-    
-
-
