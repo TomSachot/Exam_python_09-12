@@ -1,14 +1,14 @@
 tour = 0
 mot1 = ["V", "O", "I", "T", "U", "R", "E"]
-mot2 = ["F", "O", "O", "T", "B", "A", "L", "L"]
-mot3 = ["A", "T", "T", "E", "N", "T", "A", "T"]
-mot4 = ["P", "E", "L", "O", "U", "S", "E"]
+mot2 = ["M", "O", "T", "E", "U", "R"]
+mot3 = ["F", "U", "S", "I", "L"]
+mot4 = ["R", "O", "U", "T", "E"]
 mot5 = ["B", "O", "U", "L", "E", "V", "A", "R", "D"]
-mot6 = ["E", "C", "O", "S", "S", "E"]
+mot6 = ["P", "L", "A", "I", "N", "E"]
 mot7 = ["M", "A", "N", "O", "I", "R"]
-mot8 = ["S", "O", "U", "T", "E", "R", "R", "A", "I", "N"]
-mot9 = ["S", "P", "E", "C", "T", "R", "E"]
-mot10 = ["C", "A", "S", "C", "A", "D", "E"]
+mot8 = ["G", "A", "D", "J", "E", "T"]
+mot9 = ["D", "Y", "N", "A", "M", "I", "T", "E"]
+mot10 = ["P", "O", "U", "R", "S", "U", "I", "T", "E"]
 motmystere = 
 motjoueur = int(input("Quel est le mot mystère ?")
 
