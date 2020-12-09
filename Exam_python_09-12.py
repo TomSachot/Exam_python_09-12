@@ -25,7 +25,7 @@ while (tour < 8):
     tour = tour + 1
     def verif ():
         if (motjoueur = motmystere):
-            print(Back.RED
+            print(Back.RED + motjoueur, end="")
             print("Bien joué ! C'est bien ",motjoueur," le mot mystère !")
         if (motjoueur != motmystere):
             for i in range(1, 9):
